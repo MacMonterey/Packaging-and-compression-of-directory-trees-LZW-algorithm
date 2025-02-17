@@ -130,8 +130,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/ubuntu/Desktop/pkgBuild/LZW/cmake-build-debug",
-		"source" : "/home/ubuntu/Desktop/pkgBuild/LZW"
+		"build" : "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/cmake-build-debug",
+		"source" : "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW"
 	},
 	"version" : 
 	{
