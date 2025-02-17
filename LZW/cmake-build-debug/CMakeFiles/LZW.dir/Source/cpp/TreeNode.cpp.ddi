@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/LZW.dir/Source/cpp/TreeNode.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

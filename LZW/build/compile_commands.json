@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/LZW/build",
+  "command": "/usr/bin/c++  -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.h -O3 -DNDEBUG -std=gnu++26 -o CMakeFiles/LZW.dir/Source/cpp/main.cpp.o -c /home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/main.cpp",
+  "file": "/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/main.cpp",
+  "output": "CMakeFiles/LZW.dir/Source/cpp/main.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/LZW/build",
+  "command": "/usr/bin/c++  -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.h -O3 -DNDEBUG -std=gnu++26 -o CMakeFiles/LZW.dir/Source/cpp/TreeNode.cpp.o -c /home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/TreeNode.cpp",
+  "file": "/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/TreeNode.cpp",
+  "output": "CMakeFiles/LZW.dir/Source/cpp/TreeNode.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/LZW/build",
+  "command": "/usr/bin/c++  -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.h -O3 -DNDEBUG -std=gnu++26 -o CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o -c /home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/unpackTree.cpp",
+  "file": "/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/unpackTree.cpp",
+  "output": "CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/LZW/build",
+  "command": "/usr/bin/c++  -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.h -O3 -DNDEBUG -std=gnu++26 -o CMakeFiles/LZW.dir/Source/cpp/createExampleTree.cpp.o -c /home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/createExampleTree.cpp",
+  "file": "/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/createExampleTree.cpp",
+  "output": "CMakeFiles/LZW.dir/Source/cpp/createExampleTree.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/LZW/build",
+  "command": "/usr/bin/c++  -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.h -O3 -DNDEBUG -std=gnu++26 -o CMakeFiles/LZW.dir/Source/cpp/deserializeTree.cpp.o -c /home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/deserializeTree.cpp",
+  "file": "/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/deserializeTree.cpp",
+  "output": "CMakeFiles/LZW.dir/Source/cpp/deserializeTree.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/LZW/build",
+  "command": "/usr/bin/c++  -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.h -O3 -DNDEBUG -std=gnu++26 -o CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o -c /home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwEncode.cpp",
+  "file": "/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwEncode.cpp",
+  "output": "CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/LZW/build",
+  "command": "/usr/bin/c++  -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.h -O3 -DNDEBUG -std=gnu++26 -o CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o -c /home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwDecode.cpp",
+  "file": "/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwDecode.cpp",
+  "output": "CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/LZW/build",
+  "command": "/usr/bin/c++  -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.h -O3 -DNDEBUG -std=gnu++26 -o CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o -c /home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.cpp",
+  "file": "/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.cpp",
+  "output": "CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o"
+}
+]

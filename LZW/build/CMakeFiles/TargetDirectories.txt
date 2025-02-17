@@ -1,0 +1,3 @@
+/home/ubuntu/Desktop/pkgBuild/LZW/build/CMakeFiles/LZW.dir
+/home/ubuntu/Desktop/pkgBuild/LZW/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/Desktop/pkgBuild/LZW/build/CMakeFiles/rebuild_cache.dir
