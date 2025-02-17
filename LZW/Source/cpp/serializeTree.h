@@ -6,6 +6,9 @@
 #ifndef SERIALIZETREE_H
 #define SERIALIZETREE_H
 
+#include "TreeNode.h"
+#include <sstream> // 包含 <sstream>
+
 std::string serializeTree(TreeNode* node);
 
 
