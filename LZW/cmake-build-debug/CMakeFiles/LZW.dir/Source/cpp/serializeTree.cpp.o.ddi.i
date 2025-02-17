@@ -1,10 +1,10 @@
-# 0 "/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.cpp"
-# 1 "/home/ubuntu/Desktop/pkgBuild/LZW/cmake-build-debug//"
+# 0 "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.cpp"
+# 1 "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/cmake-build-debug//"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.cpp"
+# 1 "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.cpp"
 
 
 
@@ -1682,19 +1682,6 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<>
     struct __is_integral_helper<unsigned long long>
     : public true_type { };
-
-
-
-
-  __extension__
-  template<>
-    struct __is_integral_helper<__int128>
-    : public true_type { };
-
-  __extension__
-  template<>
-    struct __is_integral_helper<unsigned __int128>
-    : public true_type { };
 # 460 "/usr/include/c++/14/type_traits" 3
   template<typename _Tp>
     struct is_integral
@@ -1746,16 +1733,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<>
     struct __is_floating_point_helper<__gnu_cxx::__bfloat16_t>
     : public true_type { };
-
-
-
-  template<>
-    struct __is_floating_point_helper<__float128>
-    : public true_type { };
-
-
-
-
+# 520 "/usr/include/c++/14/type_traits" 3
   template<typename _Tp>
     struct is_floating_point
     : public __is_floating_point_helper<__remove_cv_t<_Tp>>::type
@@ -1927,8 +1905,6 @@ namespace std __attribute__ ((__visibility__ ("default")))
     using __is_signed_integer = __is_one_of<__remove_cv_t<_Tp>,
    signed char, signed short, signed int, signed long,
    signed long long
-
-   , signed __int128
 # 804 "/usr/include/c++/14/type_traits" 3
    >;
 
@@ -1938,8 +1914,6 @@ namespace std __attribute__ ((__visibility__ ("default")))
     using __is_unsigned_integer = __is_one_of<__remove_cv_t<_Tp>,
    unsigned char, unsigned short, unsigned int, unsigned long,
    unsigned long long
-
-   , unsigned __int128
 # 824 "/usr/include/c++/14/type_traits" 3
    >;
 
@@ -2743,12 +2717,6 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<>
     struct __make_unsigned<long long>
     { using __type = unsigned long long; };
-
-
-  __extension__
-  template<>
-    struct __make_unsigned<__int128>
-    { using __type = unsigned __int128; };
 # 1819 "/usr/include/c++/14/type_traits" 3
   template<typename _Tp,
     bool _IsInt = is_integral<_Tp>::value,
@@ -2883,12 +2851,6 @@ namespace std __attribute__ ((__visibility__ ("default")))
   template<>
     struct __make_signed<unsigned long long>
     { using __type = signed long long; };
-
-
-  __extension__
-  template<>
-    struct __make_signed<unsigned __int128>
-    { using __type = __int128; };
 # 1979 "/usr/include/c++/14/type_traits" 3
   template<typename _Tp,
     bool _IsInt = is_integral<_Tp>::value,
@@ -7107,7 +7069,18 @@ namespace std __attribute__ ((__visibility__ ("default")))
       using difference_type
  = make_signed_t<decltype(std::declval<_Tp>() - std::declval<_Tp>())>;
     };
-# 204 "/usr/include/c++/14/bits/iterator_concepts.h" 3
+
+
+
+  template<>
+    struct incrementable_traits<__int128>
+    { using difference_type = __int128; };
+
+  template<>
+    struct incrementable_traits<unsigned __int128>
+    { using difference_type = __int128; };
+
+
   namespace __detail
   {
 
@@ -9877,8 +9850,6 @@ namespace std __attribute__ ((__visibility__ ("default")))
       enum { __value = 1 };
       typedef __true_type __type;
     };
-# 272 "/usr/include/c++/14/bits/cpp_type_traits.h" 3
-__extension__ template<> struct __is_integer<__int128> { enum { __value = 1 }; typedef __true_type __type; }; __extension__ template<> struct __is_integer<unsigned __int128> { enum { __value = 1 }; typedef __true_type __type; };
 # 289 "/usr/include/c++/14/bits/cpp_type_traits.h" 3
   template<typename _Tp>
     struct __is_floating
@@ -15335,7 +15306,14 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
   template<typename _Value>
     const int __numeric_traits_integer<_Value>::__digits;
-# 137 "/usr/include/c++/14/ext/numeric_traits.h" 3
+# 130 "/usr/include/c++/14/ext/numeric_traits.h" 3
+  __extension__ template<> struct __is_integer_nonstrict<__int128> { enum { __value = 1 }; typedef std::__true_type __type; enum { __width = 128 }; }; __extension__ template<> struct __is_integer_nonstrict<unsigned __int128> { enum { __value = 1 }; typedef std::__true_type __type; enum { __width = 128 }; };
+
+
+
+
+
+
   template<typename _Tp>
     using __int_traits = __numeric_traits_integer<_Tp>;
 # 157 "/usr/include/c++/14/ext/numeric_traits.h" 3
@@ -17729,12 +17707,6 @@ namespace std __attribute__ ((__visibility__ ("default")))
   __size_to_integer(long long __n) { return __n; }
   inline constexpr unsigned long long
   __size_to_integer(unsigned long long __n) { return __n; }
-
-
-  __extension__ inline constexpr __int128
-  __size_to_integer(__int128 __n) { return __n; }
-  __extension__ inline constexpr unsigned __int128
-  __size_to_integer(unsigned __int128 __n) { return __n; }
 # 1071 "/usr/include/c++/14/bits/stl_algobase.h" 3
   inline constexpr long long
   __size_to_integer(float __n) { return (long long)__n; }
@@ -17743,8 +17715,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
   inline constexpr long long
   __size_to_integer(long double __n) { return (long long)__n; }
 
-  __extension__ inline constexpr long long
-  __size_to_integer(__float128 __n) { return (long long)__n; }
+
+
 
 
   template<typename _OutputIterator, typename _Size, typename _Tp>
@@ -20564,12 +20536,6 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
   template<> struct hash<unsigned long long> : public __hash_base<size_t, unsigned long long> { size_t operator()(unsigned long long __val) const noexcept { return static_cast<size_t>(__val); } };
-
-
-  __extension__
-  template<> struct hash<__int128> : public __hash_base<size_t, __int128> { size_t operator()(__int128 __val) const noexcept { return static_cast<size_t>(__val); } };
-  __extension__
-  template<> struct hash<__int128 unsigned> : public __hash_base<size_t, __int128 unsigned> { size_t operator()(__int128 unsigned __val) const noexcept { return static_cast<size_t>(__val); } };
 # 201 "/usr/include/c++/14/bits/functional_hash.h" 3
   struct _Hash_impl
   {
@@ -20808,18 +20774,7 @@ template<> inline constexpr _Float64 e_v<_Float64> = 2.7182818284590452353602874
 
 
 template<> inline constexpr _Float128 e_v<_Float128> = 2.718281828459045235360287471352662498F128; template<> inline constexpr _Float128 log2e_v<_Float128> = 1.442695040888963407359924681001892137F128; template<> inline constexpr _Float128 log10e_v<_Float128> = 0.434294481903251827651128918916605082F128; template<> inline constexpr _Float128 pi_v<_Float128> = 3.141592653589793238462643383279502884F128; template<> inline constexpr _Float128 inv_pi_v<_Float128> = 0.318309886183790671537767526745028724F128; template<> inline constexpr _Float128 inv_sqrtpi_v<_Float128> = 0.564189583547756286948079451560772586F128; template<> inline constexpr _Float128 ln2_v<_Float128> = 0.693147180559945309417232121458176568F128; template<> inline constexpr _Float128 ln10_v<_Float128> = 2.302585092994045684017991454684364208F128; template<> inline constexpr _Float128 sqrt2_v<_Float128> = 1.414213562373095048801688724209698079F128; template<> inline constexpr _Float128 sqrt3_v<_Float128> = 1.732050807568877293527446341505872367F128; template<> inline constexpr _Float128 inv_sqrt3_v<_Float128> = 0.577350269189625764509148780501957456F128; template<> inline constexpr _Float128 egamma_v<_Float128> = 0.577215664901532860606512090082402431F128; template<> inline constexpr _Float128 phi_v<_Float128> = 1.618033988749894848204586834365638118F128;
-
-
-
-
-
-
-
-template<> inline constexpr __float128 e_v<__float128> = 2.718281828459045235360287471352662498Q; template<> inline constexpr __float128 log2e_v<__float128> = 1.442695040888963407359924681001892137Q; template<> inline constexpr __float128 log10e_v<__float128> = 0.434294481903251827651128918916605082Q; template<> inline constexpr __float128 pi_v<__float128> = 3.141592653589793238462643383279502884Q; template<> inline constexpr __float128 inv_pi_v<__float128> = 0.318309886183790671537767526745028724Q; template<> inline constexpr __float128 inv_sqrtpi_v<__float128> = 0.564189583547756286948079451560772586Q; template<> inline constexpr __float128 ln2_v<__float128> = 0.693147180559945309417232121458176568Q; template<> inline constexpr __float128 ln10_v<__float128> = 2.302585092994045684017991454684364208Q; template<> inline constexpr __float128 sqrt2_v<__float128> = 1.414213562373095048801688724209698079Q; template<> inline constexpr __float128 sqrt3_v<__float128> = 1.732050807568877293527446341505872367Q; template<> inline constexpr __float128 inv_sqrt3_v<__float128> = 0.577350269189625764509148780501957456Q; template<> inline constexpr __float128 egamma_v<__float128> = 0.577215664901532860606512090082402431Q; template<> inline constexpr __float128 phi_v<__float128> = 1.618033988749894848204586834365638118Q;
-
-
-
-
+# 230 "/usr/include/c++/14/numbers" 3
 }
 
 
@@ -21577,7 +21532,17 @@ namespace ranges
       constexpr auto
       __to_unsigned_like(_Tp __t) noexcept
       { return static_cast<make_unsigned_t<_Tp>>(__t); }
-# 79 "/usr/include/c++/14/bits/ranges_base.h" 3
+
+
+    constexpr unsigned __int128
+    __to_unsigned_like(__int128 __t) noexcept
+    { return __t; }
+
+    constexpr unsigned __int128
+    __to_unsigned_like(unsigned __int128 __t) noexcept
+    { return __t; }
+
+
     template<typename _Tp>
       using __make_unsigned_like_t
  = decltype(__detail::__to_unsigned_like(std::declval<_Tp>()));
@@ -21887,8 +21852,8 @@ namespace ranges
      }
 
 
-
-
+   else if constexpr (__detail::__is_int128<__size_type>)
+     return static_cast<__int128>(__size);
 
    else
      return __detail::__max_diff_type(__size);
@@ -24010,9 +23975,6 @@ constexpr inline to_chars_result to_chars(char* __first, char* __last, signed lo
 constexpr inline to_chars_result to_chars(char* __first, char* __last, unsigned long __value, int __base = 10) { return std::__to_chars_i<unsigned long>(__first, __last, __value, __base); }
 constexpr inline to_chars_result to_chars(char* __first, char* __last, signed long long __value, int __base = 10) { return std::__to_chars_i<signed long long>(__first, __last, __value, __base); }
 constexpr inline to_chars_result to_chars(char* __first, char* __last, unsigned long long __value, int __base = 10) { return std::__to_chars_i<unsigned long long>(__first, __last, __value, __base); }
-
-constexpr inline to_chars_result to_chars(char* __first, char* __last, signed __int128 __value, int __base = 10) { return std::__to_chars_i<signed __int128>(__first, __last, __value, __base); }
-constexpr inline to_chars_result to_chars(char* __first, char* __last, unsigned __int128 __value, int __base = 10) { return std::__to_chars_i<unsigned __int128>(__first, __last, __value, __base); }
 # 391 "/usr/include/c++/14/charconv" 3
   to_chars_result to_chars(char*, char*, bool, int = 10) = delete;
 
@@ -28415,11 +28377,6 @@ namespace std __attribute__ ((__visibility__ ("default")))
   inline constexpr long double
   abs(long double __x)
   { return __builtin_fabsl(__x); }
-
-
-
-  __extension__ inline constexpr __int128
-  abs(__int128 __x) { return __x >= 0 ? __x : -__x; }
 # 101 "/usr/include/c++/14/bits/std_abs.h" 3
   constexpr _Float16
   abs(_Float16 __x)
@@ -28452,24 +28409,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   constexpr __gnu_cxx::__bfloat16_t
   abs(__gnu_cxx::__bfloat16_t __x)
   { return __gnu_cxx::__bfloat16_t(__builtin_fabsf(__x)); }
-
-
-
-  __extension__ inline constexpr
-  __float128
-  abs(__float128 __x)
-  {
-
-
-
-    return __builtin_fabsf128(__x);
-
-
-
-
-  }
-
-
+# 150 "/usr/include/c++/14/bits/std_abs.h" 3
 
 }
 }
@@ -30981,11 +30921,6 @@ namespace std
   template<> struct __byte_operand<unsigned long> { using __type = byte; };
   template<> struct __byte_operand<long long> { using __type = byte; };
   template<> struct __byte_operand<unsigned long long> { using __type = byte; };
-
-  template<> struct __byte_operand<__int128>
-  { using __type = byte; };
-  template<> struct __byte_operand<unsigned __int128>
-  { using __type = byte; };
 # 109 "/usr/include/c++/14/cstddef" 3
   template<typename _IntegerType>
     struct __byte_operand<const _IntegerType>
@@ -34654,7 +34589,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 }
-# 8 "/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.cpp" 2
+# 8 "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.cpp" 2
 # 1 "/usr/include/c++/14/vector" 1 3
 # 58 "/usr/include/c++/14/vector" 3
        
@@ -39575,7 +39510,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 }
-# 9 "/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.cpp" 2
+# 9 "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.cpp" 2
 # 1 "/usr/include/c++/14/sstream" 1 3
 # 36 "/usr/include/c++/14/sstream" 3
        
@@ -59226,7 +59161,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       static constexpr float_round_style round_style
        = round_toward_zero;
     };
-# 1637 "/usr/include/c++/14/limits" 3
+# 1658 "/usr/include/c++/14/limits" 3
   __extension__ template<> struct numeric_limits<__int128> { static constexpr bool is_specialized = true; static constexpr __int128 min() noexcept { return (((__int128)(-1) < 0) ? -(((__int128)(-1) < 0) ? (((((__int128)1 << ((128 - ((__int128)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(__int128)0) - 1 : (__int128)0); } static constexpr __int128 max() noexcept { return (((__int128)(-1) < 0) ? (((((__int128)1 << ((128 - ((__int128)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(__int128)0); } static constexpr int digits = 128 - 1; static constexpr int digits10 = (128 - 1) * 643L / 2136; static constexpr bool is_signed = true; static constexpr bool is_integer = true; static constexpr bool is_exact = true; static constexpr int radix = 2; static constexpr __int128 epsilon() noexcept { return 0; } static constexpr __int128 round_error() noexcept { return 0; } static constexpr __int128 lowest() noexcept { return min(); } static constexpr int max_digits10 = 0; static constexpr int min_exponent = 0; static constexpr int min_exponent10 = 0; static constexpr int max_exponent = 0; static constexpr int max_exponent10 = 0; static constexpr bool has_infinity = false; static constexpr bool has_quiet_NaN = false; static constexpr bool has_signaling_NaN = false; static constexpr float_denorm_style has_denorm = denorm_absent; static constexpr bool has_denorm_loss = false; static constexpr __int128 infinity() noexcept { return static_cast<__int128>(0); } static constexpr __int128 quiet_NaN() noexcept { return static_cast<__int128>(0); } static constexpr __int128 signaling_NaN() noexcept { return static_cast<__int128>(0); } static constexpr __int128 denorm_min() noexcept { return static_cast<__int128>(0); } static constexpr bool is_iec559 = false; static constexpr bool is_bounded = true; static constexpr bool is_modulo = false; static constexpr bool traps = true; static constexpr bool tinyness_before = false; static constexpr float_round_style round_style = round_toward_zero; }; __extension__ template<> struct numeric_limits<unsigned __int128> { static constexpr bool is_specialized = true; static constexpr unsigned __int128 min() noexcept { return 0; } static constexpr unsigned __int128 max() noexcept { return (((unsigned __int128)(-1) < 0) ? (((((unsigned __int128)1 << ((128 - ((unsigned __int128)(-1) < 0)) - 1)) - 1) << 1) + 1) : ~(unsigned __int128)0); } static constexpr unsigned __int128 lowest() noexcept { return min(); } static constexpr int max_digits10 = 0; static constexpr int digits = 128; static constexpr int digits10 = 128 * 643L / 2136; static constexpr bool is_signed = false; static constexpr bool is_integer = true; static constexpr bool is_exact = true; static constexpr int radix = 2; static constexpr unsigned __int128 epsilon() noexcept { return 0; } static constexpr unsigned __int128 round_error() noexcept { return 0; } static constexpr int min_exponent = 0; static constexpr int min_exponent10 = 0; static constexpr int max_exponent = 0; static constexpr int max_exponent10 = 0; static constexpr bool has_infinity = false; static constexpr bool has_quiet_NaN = false; static constexpr bool has_signaling_NaN = false; static constexpr float_denorm_style has_denorm = denorm_absent; static constexpr bool has_denorm_loss = false; static constexpr unsigned __int128 infinity() noexcept { return static_cast<unsigned __int128>(0); } static constexpr unsigned __int128 quiet_NaN() noexcept { return static_cast<unsigned __int128>(0); } static constexpr unsigned __int128 signaling_NaN() noexcept { return static_cast<unsigned __int128>(0); } static constexpr unsigned __int128 denorm_min() noexcept { return static_cast<unsigned __int128>(0); } static constexpr bool is_iec559 = false; static constexpr bool is_bounded = true; static constexpr bool is_modulo = true; static constexpr bool traps = true; static constexpr bool tinyness_before = false; static constexpr float_round_style round_style = round_toward_zero; };
 # 1669 "/usr/include/c++/14/limits" 3
   template<>
@@ -59552,9 +59487,9 @@ __extension__ template<> struct numeric_limits<_Float128> { static constexpr boo
       {
 
 
+ return double(9.3132257461547852e-10) * _S_1pm16352();
 
 
- return __extension__ 0x1.0p-16382Q;
 
       }
 
@@ -59564,11 +59499,11 @@ __extension__ template<> struct numeric_limits<_Float128> { static constexpr boo
 
 
 
+ return (__float128(double(3.4028236692093843e+38))
+    + double(3.7778931862957153e+22) + double(8.35584e+6))
+   * _S_1p16256();
 
 
-
-
- return __extension__ 0x1.ffffffffffffffffffffffffffffp+16383Q;
 
       }
 
@@ -59635,9 +59570,9 @@ __extension__ template<> struct numeric_limits<_Float128> { static constexpr boo
       {
 
 
+ return double(1.7936620343357659e-43) * _S_1pm16352();
 
 
- return __extension__ 0x1.0p-16494Q;
 
       }
 
@@ -59649,7 +59584,29 @@ __extension__ template<> struct numeric_limits<_Float128> { static constexpr boo
       static constexpr bool tinyness_before = false;
       static constexpr float_round_style round_style
  = round_to_nearest;
-# 2218 "/usr/include/c++/14/limits" 3
+
+
+    private:
+      static constexpr __float128
+      _S_4p(__float128 __v) noexcept
+      { return __v * __v * __v * __v; }
+
+      static constexpr __float128
+      _S_1pm4088() noexcept
+      { return _S_4p( double(2.2250738585072014e-308)); }
+
+      static constexpr __float128
+      _S_1pm16352() noexcept
+      { return _S_4p(_S_1pm4088()); }
+
+      static constexpr __float128
+      _S_1p4064() noexcept
+      { return _S_4p( double(7.0222388080559215e+305)); }
+
+      static constexpr __float128
+      _S_1p16256() noexcept
+      { return _S_4p(_S_1p4064()); }
+
     };
 
 
@@ -67719,11 +67676,11 @@ namespace __variant
       static_assert(sizeof...(_Types) > 0,
       "variant must have at least one alternative");
 
+      static_assert(((std::is_object_v<_Types> && !is_array_v<_Types>) && ...),
+      "variant alternatives must be non-array object types");
 
 
 
-      static_assert((std::is_object_v<_Types> && ...),
-      "variant alternatives must be object types");
 
 
       using _Base = __detail::__variant::_Variant_base<_Types...>;
@@ -70060,7 +70017,21 @@ namespace __format
    return __format::__write_padded(std::move(__out), __str,
        __align, __nfill, __fill_char);
  }
-# 1305 "/usr/include/c++/14/format" 3
+
+
+      template<typename _Tp>
+ using make_unsigned_t
+   = typename __conditional_t<(sizeof(_Tp) <= sizeof(long long)),
+         std::make_unsigned<_Tp>,
+         type_identity<unsigned __int128>>::type;
+
+
+      template<typename _Int>
+ static to_chars_result
+ to_chars(char* __first, char* __last, _Int __value, int __base)
+ { return std::__to_chars_i<_Int>(__first, __last, __value, __base); }
+
+
       _Spec<_CharT> _M_spec{};
     };
 # 1361 "/usr/include/c++/14/format" 3
@@ -70801,7 +70772,33 @@ namespace __format
     private:
       __format::__formatter_int<_CharT> _M_f;
     };
-# 2155 "/usr/include/c++/14/format" 3
+
+
+  template<typename _Tp, __format::__char _CharT>
+    requires (__is_one_of<_Tp, __int128, unsigned __int128>::value)
+    struct formatter<_Tp, _CharT>
+    {
+      formatter() = default;
+
+      [[__gnu__::__always_inline__]]
+      constexpr typename basic_format_parse_context<_CharT>::iterator
+      parse(basic_format_parse_context<_CharT>& __pc)
+      {
+ return _M_f.template _M_parse<_Tp>(__pc);
+      }
+
+      template<typename _Out>
+ typename basic_format_context<_Out, _CharT>::iterator
+ format(_Tp __u, basic_format_context<_Out, _CharT>& __fc) const
+ { return _M_f.format(__u, __fc); }
+
+    private:
+      __format::__formatter_int<_CharT> _M_f;
+    };
+
+
+
+
   template<__format::__formattable_float _Tp, __format::__char _CharT>
     struct formatter<_Tp, _CharT>
     {
@@ -76773,17 +76770,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 }
 # 1239 "/usr/include/c++/14/sstream" 2 3
-# 10 "/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.cpp" 2
+# 10 "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.cpp" 2
 
-# 1 "/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/TreeNode.h" 1
-
-
+# 1 "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h" 1
 
 
 
 
 
-# 7 "/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/TreeNode.h"
+
+
+# 7 "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h"
 class TreeNode {
 public:
     std::string name;
@@ -76795,11 +76792,11 @@ public:
     ~TreeNode();
     void addChild(TreeNode* child);
 };
-# 12 "/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.cpp" 2
-# 1 "/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.h" 1
-# 9 "/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.h"
+# 12 "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.cpp" 2
+# 1 "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h" 1
+# 12 "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h"
 std::string serializeTree(TreeNode* node);
-# 13 "/home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.cpp" 2
+# 13 "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.cpp" 2
 
 
 std::string serializeTree(TreeNode* node) {

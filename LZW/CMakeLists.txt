@@ -20,7 +20,9 @@ add_executable(LZW Source/cpp/main.cpp
         Source/cpp/lzwDecode.cpp
         Source/cpp/lzwDecode.h
         Source/cpp/serializeTree.cpp
-        Source/cpp/serializeTree.h)
+        Source/cpp/serializeTree.h
+        Source/cpp/saveAndLoadData.cpp
+        Source/cpp/saveAndLoadData.h)
 
 # 使用 target_sources 添加源碼檔案
 #[[target_sources(LZW PRIVATE

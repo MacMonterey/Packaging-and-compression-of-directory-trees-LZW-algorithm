@@ -11,6 +11,7 @@
 #include "lzwEncode.h"
 #include "lzwDecode.h"
 #include "serializeTree.h"
+#include "saveAndLoadData.h"
 
 
 
@@ -30,6 +31,14 @@ int main() {
         std::cout << code << " ";
     }
     std::cout << std::endl;
+
+    // --- 保存壓縮檔到檔案 ---
+    if (saveCompressedDataToFile(compressedData, "compressed.lzw")) {
+        std::cout << "Compressed data saved to file." << std::endl;
+    }
+
+    // --- 从檔案中存取壓縮檔 ---
+    std::vector<int> loadedCompressedData = loadCompressedDataFromFile("compressed.lzw");
 
     // LZW 解壓縮
     std::string decompressedData = lzwDecode(compressedData);
