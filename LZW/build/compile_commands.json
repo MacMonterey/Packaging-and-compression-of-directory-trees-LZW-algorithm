@@ -46,5 +46,11 @@
   "command": "/usr/bin/c++   -g -std=c++26 -o CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o -c /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.cpp",
   "file": "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.cpp",
   "output": "CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/build",
+  "command": "/usr/bin/c++   -g -std=c++26 -o CMakeFiles/LZW.dir/Source/cpp/saveAndLoadData.cpp.o -c /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/saveAndLoadData.cpp",
+  "file": "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/saveAndLoadData.cpp",
+  "output": "CMakeFiles/LZW.dir/Source/cpp/saveAndLoadData.cpp.o"
 }
 ]

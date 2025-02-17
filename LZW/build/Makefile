@@ -273,6 +273,30 @@ Source/cpp/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LZW.dir/build.make CMakeFiles/LZW.dir/Source/cpp/main.cpp.s
 .PHONY : Source/cpp/main.cpp.s
 
+Source/cpp/saveAndLoadData.o: Source/cpp/saveAndLoadData.cpp.o
+.PHONY : Source/cpp/saveAndLoadData.o
+
+# target to build an object file
+Source/cpp/saveAndLoadData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LZW.dir/build.make CMakeFiles/LZW.dir/Source/cpp/saveAndLoadData.cpp.o
+.PHONY : Source/cpp/saveAndLoadData.cpp.o
+
+Source/cpp/saveAndLoadData.i: Source/cpp/saveAndLoadData.cpp.i
+.PHONY : Source/cpp/saveAndLoadData.i
+
+# target to preprocess a source file
+Source/cpp/saveAndLoadData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LZW.dir/build.make CMakeFiles/LZW.dir/Source/cpp/saveAndLoadData.cpp.i
+.PHONY : Source/cpp/saveAndLoadData.cpp.i
+
+Source/cpp/saveAndLoadData.s: Source/cpp/saveAndLoadData.cpp.s
+.PHONY : Source/cpp/saveAndLoadData.s
+
+# target to generate assembly for a file
+Source/cpp/saveAndLoadData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LZW.dir/build.make CMakeFiles/LZW.dir/Source/cpp/saveAndLoadData.cpp.s
+.PHONY : Source/cpp/saveAndLoadData.cpp.s
+
 Source/cpp/serializeTree.o: Source/cpp/serializeTree.cpp.o
 .PHONY : Source/cpp/serializeTree.o
 
@@ -348,6 +372,9 @@ help:
 	@echo "... Source/cpp/main.o"
 	@echo "... Source/cpp/main.i"
 	@echo "... Source/cpp/main.s"
+	@echo "... Source/cpp/saveAndLoadData.o"
+	@echo "... Source/cpp/saveAndLoadData.i"
+	@echo "... Source/cpp/saveAndLoadData.s"
 	@echo "... Source/cpp/serializeTree.o"
 	@echo "... Source/cpp/serializeTree.i"
 	@echo "... Source/cpp/serializeTree.s"

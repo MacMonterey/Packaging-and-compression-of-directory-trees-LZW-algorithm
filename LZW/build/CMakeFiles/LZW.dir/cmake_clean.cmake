@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o.d"
   "CMakeFiles/LZW.dir/Source/cpp/main.cpp.o"
   "CMakeFiles/LZW.dir/Source/cpp/main.cpp.o.d"
+  "CMakeFiles/LZW.dir/Source/cpp/saveAndLoadData.cpp.o"
+  "CMakeFiles/LZW.dir/Source/cpp/saveAndLoadData.cpp.o.d"
   "CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o"
   "CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o.d"
   "CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o"

@@ -1,7 +1,7 @@
 CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o.ddi: \
- /home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/unpackTree.cpp \
+ /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.cpp \
  /usr/include/stdc-predef.h \
- /home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/unpackTree.h \
+ /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h \
  /usr/include/c++/14/string /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
@@ -122,7 +122,7 @@ CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o.ddi: \
  /usr/include/c++/14/bits/uses_allocator.h \
  /usr/include/c++/14/bits/uses_allocator_args.h /usr/include/c++/14/tuple \
  /usr/include/c++/14/bits/ranges_util.h \
- /home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/TreeNode.h \
+ /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h \
  /usr/include/c++/14/vector /usr/include/c++/14/bits/stl_uninitialized.h \
  /usr/include/c++/14/bits/stl_vector.h \
  /usr/include/c++/14/bits/stl_bvector.h \

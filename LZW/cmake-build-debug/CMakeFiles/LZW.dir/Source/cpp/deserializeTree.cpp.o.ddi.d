@@ -1,7 +1,7 @@
 CMakeFiles/LZW.dir/Source/cpp/deserializeTree.cpp.o.ddi: \
- /home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/deserializeTree.cpp \
+ /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.cpp \
  /usr/include/stdc-predef.h \
- /home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/deserializeTree.h \
+ /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h \
  /usr/include/c++/14/sstream /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
@@ -180,7 +180,7 @@ CMakeFiles/LZW.dir/Source/cpp/deserializeTree.cpp.o.ddi: \
  /usr/include/c++/14/bits/ostream.tcc \
  /usr/include/c++/14/bits/istream.tcc \
  /usr/include/c++/14/bits/sstream.tcc \
- /home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/TreeNode.h \
+ /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h \
  /usr/include/c++/14/vector /usr/include/c++/14/bits/stl_uninitialized.h \
  /usr/include/c++/14/bits/stl_vector.h \
  /usr/include/c++/14/bits/stl_bvector.h \

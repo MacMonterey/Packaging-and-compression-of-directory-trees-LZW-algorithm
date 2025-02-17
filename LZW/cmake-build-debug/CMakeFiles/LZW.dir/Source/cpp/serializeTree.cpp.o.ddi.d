@@ -1,5 +1,5 @@
 CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o.ddi: \
- /home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.cpp \
+ /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/14/string \
  /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
@@ -184,5 +184,5 @@ CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o.ddi: \
  /usr/include/c++/14/bits/ostream.tcc \
  /usr/include/c++/14/bits/istream.tcc \
  /usr/include/c++/14/bits/sstream.tcc \
- /home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/TreeNode.h \
- /home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/serializeTree.h
+ /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h \
+ /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h

@@ -1,6 +1,6 @@
-CMakeFiles/LZW.dir/Source/cpp/main.cpp.o.ddi: \
- /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/14/iostream \
+CMakeFiles/LZW.dir/Source/cpp/saveAndLoadData.cpp.o.ddi: \
+ /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/saveAndLoadData.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/14/fstream \
  /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
@@ -12,7 +12,7 @@ CMakeFiles/LZW.dir/Source/cpp/main.cpp.o.ddi: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/cpu_defines.h \
- /usr/include/c++/14/pstl/pstl_config.h /usr/include/c++/14/ostream \
+ /usr/include/c++/14/pstl/pstl_config.h /usr/include/c++/14/istream \
  /usr/include/c++/14/ios /usr/include/c++/14/iosfwd \
  /usr/include/c++/14/bits/stringfwd.h \
  /usr/include/c++/14/bits/memoryfwd.h /usr/include/c++/14/bits/postypes.h \
@@ -163,8 +163,9 @@ CMakeFiles/LZW.dir/Source/cpp/main.cpp.o.ddi: \
  /usr/include/c++/14/bits/streambuf_iterator.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/ctype_inline.h \
  /usr/include/c++/14/bits/locale_facets.tcc \
- /usr/include/c++/14/bits/basic_ios.tcc /usr/include/c++/14/format \
- /usr/include/c++/14/limits /usr/include/c++/14/locale \
+ /usr/include/c++/14/bits/basic_ios.tcc /usr/include/c++/14/ostream \
+ /usr/include/c++/14/format /usr/include/c++/14/limits \
+ /usr/include/c++/14/locale \
  /usr/include/c++/14/bits/locale_facets_nonio.h /usr/include/c++/14/ctime \
  /usr/include/x86_64-linux-gnu/c++/14/bits/time_members.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/messages_members.h \
@@ -175,21 +176,13 @@ CMakeFiles/LZW.dir/Source/cpp/main.cpp.o.ddi: \
  /usr/include/c++/14/span /usr/include/c++/14/variant \
  /usr/include/c++/14/bits/parse_numbers.h \
  /usr/include/c++/14/bits/ranges_algobase.h \
- /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
- /usr/include/c++/14/bits/istream.tcc /usr/include/c++/14/fstream \
+ /usr/include/c++/14/bits/ostream.tcc \
+ /usr/include/c++/14/bits/istream.tcc \
  /usr/include/x86_64-linux-gnu/c++/14/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++io.h \
- /usr/include/c++/14/bits/fstream.tcc /usr/include/c++/14/vector \
- /usr/include/c++/14/bits/stl_uninitialized.h \
+ /usr/include/c++/14/bits/fstream.tcc /usr/include/c++/14/iostream \
+ /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/saveAndLoadData.h \
+ /usr/include/c++/14/vector /usr/include/c++/14/bits/stl_uninitialized.h \
  /usr/include/c++/14/bits/stl_vector.h \
  /usr/include/c++/14/bits/stl_bvector.h \
- /usr/include/c++/14/bits/vector.tcc /usr/include/c++/14/sstream \
- /usr/include/c++/14/bits/sstream.tcc \
- /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h \
- /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h \
- /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/createExampleTree.h \
- /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h \
- /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.h \
- /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h \
- /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h \
- /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/saveAndLoadData.h
+ /usr/include/c++/14/bits/vector.tcc

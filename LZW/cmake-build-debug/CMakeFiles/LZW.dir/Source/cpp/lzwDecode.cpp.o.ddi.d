@@ -1,5 +1,5 @@
 CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o.ddi: \
- /home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwDecode.cpp \
+ /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/14/string \
  /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
@@ -132,4 +132,4 @@ CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o.ddi: \
  /usr/include/c++/14/bits/enable_special_members.h \
  /usr/include/c++/14/bits/node_handle.h \
  /usr/include/c++/14/bits/erase_if.h \
- /home/ubuntu/Desktop/pkgBuild/LZW/Source/cpp/lzwDecode.h
+ /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h

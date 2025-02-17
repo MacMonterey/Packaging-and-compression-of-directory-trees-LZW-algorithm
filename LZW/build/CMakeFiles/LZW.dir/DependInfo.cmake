@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.cpp" "CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o" "gcc" "CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o.d"
   "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.cpp" "CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o" "gcc" "CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o.d"
   "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/main.cpp" "CMakeFiles/LZW.dir/Source/cpp/main.cpp.o" "gcc" "CMakeFiles/LZW.dir/Source/cpp/main.cpp.o.d"
+  "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/saveAndLoadData.cpp" "CMakeFiles/LZW.dir/Source/cpp/saveAndLoadData.cpp.o" "gcc" "CMakeFiles/LZW.dir/Source/cpp/saveAndLoadData.cpp.o.d"
   "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.cpp" "CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o" "gcc" "CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o.d"
   "/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.cpp" "CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o" "gcc" "CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o.d"
   "" "LZW" "gcc" "CMakeFiles/LZW.dir/link.d"
