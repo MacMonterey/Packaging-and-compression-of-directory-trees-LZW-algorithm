@@ -1,0 +1,17 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/LZW.dir/Source/cpp/main.cpp.o: dyndep
+
+build CMakeFiles/LZW.dir/Source/cpp/TreeNode.cpp.o: dyndep
+
+build CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o: dyndep
+
+build CMakeFiles/LZW.dir/Source/cpp/createExampleTree.cpp.o: dyndep
+
+build CMakeFiles/LZW.dir/Source/cpp/deserializeTree.cpp.o: dyndep
+
+build CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o: dyndep
+
+build CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o: dyndep
+
+build CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o: dyndep
+
