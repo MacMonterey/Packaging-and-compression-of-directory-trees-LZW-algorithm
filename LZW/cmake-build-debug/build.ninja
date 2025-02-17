@@ -49,28 +49,10 @@ cmake_ninja_workdir = /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compres
 
 build cmake_object_order_depends_target_LZW: phony || .
 
-build CMakeFiles/LZW.dir/Source/cpp/df.cpp.o.ddi: CXX_SCAN__LZW_Debug /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/df.cpp || cmake_object_order_depends_target_LZW
-  DEP_FILE = CMakeFiles/LZW.dir/Source/cpp/df.cpp.o.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LZW.dir/Source/cpp/df.cpp.o.ddi
-  FLAGS = -g -std=c++26 -fdiagnostics-color=always
-  INCLUDES = -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h
-  OBJ_FILE = CMakeFiles/LZW.dir/Source/cpp/df.cpp.o
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles/LZW.dir/Source/cpp/df.cpp.o.ddi.i
-
-build CMakeFiles/LZW.dir/Source/cpp/df.cpp.o: CXX_COMPILER__LZW_scanned_Debug /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/df.cpp | CMakeFiles/LZW.dir/Source/cpp/df.cpp.o.modmap || cmake_object_order_depends_target_LZW CMakeFiles/LZW.dir/CXX.dd
-  DEP_FILE = CMakeFiles/LZW.dir/Source/cpp/df.cpp.o.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles/LZW.dir/Source/cpp/df.cpp.o.modmap
-  FLAGS = -g -std=c++26 -fdiagnostics-color=always
-  INCLUDES = -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h
-  OBJECT_DIR = CMakeFiles/LZW.dir
-  OBJECT_FILE_DIR = CMakeFiles/LZW.dir/Source/cpp
-  dyndep = CMakeFiles/LZW.dir/CXX.dd
-
 build CMakeFiles/LZW.dir/Source/cpp/main.cpp.o.ddi: CXX_SCAN__LZW_Debug /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/main.cpp || cmake_object_order_depends_target_LZW
   DEP_FILE = CMakeFiles/LZW.dir/Source/cpp/main.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LZW.dir/Source/cpp/main.cpp.o.ddi
   FLAGS = -g -std=c++26 -fdiagnostics-color=always
-  INCLUDES = -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h
   OBJ_FILE = CMakeFiles/LZW.dir/Source/cpp/main.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LZW.dir/Source/cpp/main.cpp.o.ddi.i
 
@@ -78,7 +60,6 @@ build CMakeFiles/LZW.dir/Source/cpp/main.cpp.o: CXX_COMPILER__LZW_scanned_Debug 
   DEP_FILE = CMakeFiles/LZW.dir/Source/cpp/main.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LZW.dir/Source/cpp/main.cpp.o.modmap
   FLAGS = -g -std=c++26 -fdiagnostics-color=always
-  INCLUDES = -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h
   OBJECT_DIR = CMakeFiles/LZW.dir
   OBJECT_FILE_DIR = CMakeFiles/LZW.dir/Source/cpp
   dyndep = CMakeFiles/LZW.dir/CXX.dd
@@ -87,7 +68,6 @@ build CMakeFiles/LZW.dir/Source/cpp/TreeNode.cpp.o.ddi: CXX_SCAN__LZW_Debug /hom
   DEP_FILE = CMakeFiles/LZW.dir/Source/cpp/TreeNode.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LZW.dir/Source/cpp/TreeNode.cpp.o.ddi
   FLAGS = -g -std=c++26 -fdiagnostics-color=always
-  INCLUDES = -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h
   OBJ_FILE = CMakeFiles/LZW.dir/Source/cpp/TreeNode.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LZW.dir/Source/cpp/TreeNode.cpp.o.ddi.i
 
@@ -95,7 +75,6 @@ build CMakeFiles/LZW.dir/Source/cpp/TreeNode.cpp.o: CXX_COMPILER__LZW_scanned_De
   DEP_FILE = CMakeFiles/LZW.dir/Source/cpp/TreeNode.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LZW.dir/Source/cpp/TreeNode.cpp.o.modmap
   FLAGS = -g -std=c++26 -fdiagnostics-color=always
-  INCLUDES = -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h
   OBJECT_DIR = CMakeFiles/LZW.dir
   OBJECT_FILE_DIR = CMakeFiles/LZW.dir/Source/cpp
   dyndep = CMakeFiles/LZW.dir/CXX.dd
@@ -104,7 +83,6 @@ build CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o.ddi: CXX_SCAN__LZW_Debug /h
   DEP_FILE = CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o.ddi
   FLAGS = -g -std=c++26 -fdiagnostics-color=always
-  INCLUDES = -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h
   OBJ_FILE = CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o.ddi.i
 
@@ -112,7 +90,6 @@ build CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o: CXX_COMPILER__LZW_scanned_
   DEP_FILE = CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o.modmap
   FLAGS = -g -std=c++26 -fdiagnostics-color=always
-  INCLUDES = -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h
   OBJECT_DIR = CMakeFiles/LZW.dir
   OBJECT_FILE_DIR = CMakeFiles/LZW.dir/Source/cpp
   dyndep = CMakeFiles/LZW.dir/CXX.dd
@@ -121,7 +98,6 @@ build CMakeFiles/LZW.dir/Source/cpp/createExampleTree.cpp.o.ddi: CXX_SCAN__LZW_D
   DEP_FILE = CMakeFiles/LZW.dir/Source/cpp/createExampleTree.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LZW.dir/Source/cpp/createExampleTree.cpp.o.ddi
   FLAGS = -g -std=c++26 -fdiagnostics-color=always
-  INCLUDES = -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h
   OBJ_FILE = CMakeFiles/LZW.dir/Source/cpp/createExampleTree.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LZW.dir/Source/cpp/createExampleTree.cpp.o.ddi.i
 
@@ -129,7 +105,6 @@ build CMakeFiles/LZW.dir/Source/cpp/createExampleTree.cpp.o: CXX_COMPILER__LZW_s
   DEP_FILE = CMakeFiles/LZW.dir/Source/cpp/createExampleTree.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LZW.dir/Source/cpp/createExampleTree.cpp.o.modmap
   FLAGS = -g -std=c++26 -fdiagnostics-color=always
-  INCLUDES = -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h
   OBJECT_DIR = CMakeFiles/LZW.dir
   OBJECT_FILE_DIR = CMakeFiles/LZW.dir/Source/cpp
   dyndep = CMakeFiles/LZW.dir/CXX.dd
@@ -138,7 +113,6 @@ build CMakeFiles/LZW.dir/Source/cpp/deserializeTree.cpp.o.ddi: CXX_SCAN__LZW_Deb
   DEP_FILE = CMakeFiles/LZW.dir/Source/cpp/deserializeTree.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LZW.dir/Source/cpp/deserializeTree.cpp.o.ddi
   FLAGS = -g -std=c++26 -fdiagnostics-color=always
-  INCLUDES = -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h
   OBJ_FILE = CMakeFiles/LZW.dir/Source/cpp/deserializeTree.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LZW.dir/Source/cpp/deserializeTree.cpp.o.ddi.i
 
@@ -146,7 +120,6 @@ build CMakeFiles/LZW.dir/Source/cpp/deserializeTree.cpp.o: CXX_COMPILER__LZW_sca
   DEP_FILE = CMakeFiles/LZW.dir/Source/cpp/deserializeTree.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LZW.dir/Source/cpp/deserializeTree.cpp.o.modmap
   FLAGS = -g -std=c++26 -fdiagnostics-color=always
-  INCLUDES = -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h
   OBJECT_DIR = CMakeFiles/LZW.dir
   OBJECT_FILE_DIR = CMakeFiles/LZW.dir/Source/cpp
   dyndep = CMakeFiles/LZW.dir/CXX.dd
@@ -155,7 +128,6 @@ build CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o.ddi: CXX_SCAN__LZW_Debug /ho
   DEP_FILE = CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o.ddi
   FLAGS = -g -std=c++26 -fdiagnostics-color=always
-  INCLUDES = -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h
   OBJ_FILE = CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o.ddi.i
 
@@ -163,7 +135,6 @@ build CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o: CXX_COMPILER__LZW_scanned_D
   DEP_FILE = CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o.modmap
   FLAGS = -g -std=c++26 -fdiagnostics-color=always
-  INCLUDES = -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h
   OBJECT_DIR = CMakeFiles/LZW.dir
   OBJECT_FILE_DIR = CMakeFiles/LZW.dir/Source/cpp
   dyndep = CMakeFiles/LZW.dir/CXX.dd
@@ -172,7 +143,6 @@ build CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o.ddi: CXX_SCAN__LZW_Debug /ho
   DEP_FILE = CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o.ddi
   FLAGS = -g -std=c++26 -fdiagnostics-color=always
-  INCLUDES = -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h
   OBJ_FILE = CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o.ddi.i
 
@@ -180,7 +150,6 @@ build CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o: CXX_COMPILER__LZW_scanned_D
   DEP_FILE = CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o.modmap
   FLAGS = -g -std=c++26 -fdiagnostics-color=always
-  INCLUDES = -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h
   OBJECT_DIR = CMakeFiles/LZW.dir
   OBJECT_FILE_DIR = CMakeFiles/LZW.dir/Source/cpp
   dyndep = CMakeFiles/LZW.dir/CXX.dd
@@ -189,7 +158,6 @@ build CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o.ddi: CXX_SCAN__LZW_Debug
   DEP_FILE = CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o.ddi
   FLAGS = -g -std=c++26 -fdiagnostics-color=always
-  INCLUDES = -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h
   OBJ_FILE = CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o.ddi.i
 
@@ -197,12 +165,11 @@ build CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o: CXX_COMPILER__LZW_scann
   DEP_FILE = CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o.modmap
   FLAGS = -g -std=c++26 -fdiagnostics-color=always
-  INCLUDES = -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/TreeNode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/unpackTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/createExampleTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/deserializeTree.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwEncode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/lzwDecode.h -I/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/Source/cpp/serializeTree.h
   OBJECT_DIR = CMakeFiles/LZW.dir
   OBJECT_FILE_DIR = CMakeFiles/LZW.dir/Source/cpp
   dyndep = CMakeFiles/LZW.dir/CXX.dd
 
-build CMakeFiles/LZW.dir/CXX.dd | /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/cmake-build-debug/CMakeFiles/LZW.dir/CXXModules.json CMakeFiles/LZW.dir/Source/cpp/df.cpp.o.modmap CMakeFiles/LZW.dir/Source/cpp/main.cpp.o.modmap CMakeFiles/LZW.dir/Source/cpp/TreeNode.cpp.o.modmap CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o.modmap CMakeFiles/LZW.dir/Source/cpp/createExampleTree.cpp.o.modmap CMakeFiles/LZW.dir/Source/cpp/deserializeTree.cpp.o.modmap CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o.modmap CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o.modmap CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o.modmap: CXX_DYNDEP__LZW_Debug CMakeFiles/LZW.dir/Source/cpp/df.cpp.o.ddi CMakeFiles/LZW.dir/Source/cpp/main.cpp.o.ddi CMakeFiles/LZW.dir/Source/cpp/TreeNode.cpp.o.ddi CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o.ddi CMakeFiles/LZW.dir/Source/cpp/createExampleTree.cpp.o.ddi CMakeFiles/LZW.dir/Source/cpp/deserializeTree.cpp.o.ddi CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o.ddi CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o.ddi CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o.ddi | /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/cmake-build-debug/CMakeFiles/LZW.dir/CXXDependInfo.json
+build CMakeFiles/LZW.dir/CXX.dd | /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/cmake-build-debug/CMakeFiles/LZW.dir/CXXModules.json CMakeFiles/LZW.dir/Source/cpp/main.cpp.o.modmap CMakeFiles/LZW.dir/Source/cpp/TreeNode.cpp.o.modmap CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o.modmap CMakeFiles/LZW.dir/Source/cpp/createExampleTree.cpp.o.modmap CMakeFiles/LZW.dir/Source/cpp/deserializeTree.cpp.o.modmap CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o.modmap CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o.modmap CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o.modmap: CXX_DYNDEP__LZW_Debug CMakeFiles/LZW.dir/Source/cpp/main.cpp.o.ddi CMakeFiles/LZW.dir/Source/cpp/TreeNode.cpp.o.ddi CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o.ddi CMakeFiles/LZW.dir/Source/cpp/createExampleTree.cpp.o.ddi CMakeFiles/LZW.dir/Source/cpp/deserializeTree.cpp.o.ddi CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o.ddi CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o.ddi CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o.ddi | /home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/cmake-build-debug/CMakeFiles/LZW.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -212,7 +179,7 @@ build CMakeFiles/LZW.dir/CXX.dd | /home/ubuntu/Desktop/pkgBuild/Github/Packaging
 #############################################
 # Link the executable LZW
 
-build LZW: CXX_EXECUTABLE_LINKER__LZW_Debug CMakeFiles/LZW.dir/Source/cpp/df.cpp.o CMakeFiles/LZW.dir/Source/cpp/main.cpp.o CMakeFiles/LZW.dir/Source/cpp/TreeNode.cpp.o CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o CMakeFiles/LZW.dir/Source/cpp/createExampleTree.cpp.o CMakeFiles/LZW.dir/Source/cpp/deserializeTree.cpp.o CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o
+build LZW: CXX_EXECUTABLE_LINKER__LZW_Debug CMakeFiles/LZW.dir/Source/cpp/main.cpp.o CMakeFiles/LZW.dir/Source/cpp/TreeNode.cpp.o CMakeFiles/LZW.dir/Source/cpp/unpackTree.cpp.o CMakeFiles/LZW.dir/Source/cpp/createExampleTree.cpp.o CMakeFiles/LZW.dir/Source/cpp/deserializeTree.cpp.o CMakeFiles/LZW.dir/Source/cpp/lzwEncode.cpp.o CMakeFiles/LZW.dir/Source/cpp/lzwDecode.cpp.o CMakeFiles/LZW.dir/Source/cpp/serializeTree.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/LZW.dir
   POST_BUILD = :
