@@ -1,0 +1,3 @@
+/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/cmake-build-debug/CMakeFiles/LZW.dir
+/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ubuntu/Desktop/pkgBuild/Github/Packaging-and-compression-of-directory-trees-LZW-algorithm/LZW/cmake-build-debug/CMakeFiles/rebuild_cache.dir
